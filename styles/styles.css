@@ -1,6 +1,9 @@
 html,
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family:;
+    background-color: red;
+    font-style: italic;
+
 }
 
 .section {
@@ -12,7 +15,7 @@ body {
 }
 
 .next a {
-    color: rgb(33, 37, 41);
+    color: rgb(0, 255, 4);
 }
 
 .arrow-next {
@@ -40,13 +43,37 @@ body {
 }
 
 .class-card {
-    background-color: #eeeeee;
-    color: black;
+    background-color: #1b0ddf;
+    color: rgb(255, 255, 255);
     transition-property: all;
     transition-duration: 0.3s;
 }
 
 .class-card:hover {
     background-color: var(--bs-primary);
-    color: white;
+    color: red;
 }
+
+.h5{
+
+    font-style: oblique;
+    font-style: italic;
+    color: white;
+    
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+  }
+
+.carousel-item img {
+    height: 300px; 
+    width: 200px;
+    object-fit: cover; 
+  }
+
+  .progress-text-right {
+    align-content: center;
+    margin-left: 70%;
+    font-size:x-large;
+  }
